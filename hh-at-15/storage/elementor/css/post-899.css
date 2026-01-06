@@ -1,0 +1,29 @@
+.elementor-899
+  .elementor-element.elementor-element-d7043da
+  .mil-main-menu
+  ul
+  li {
+  text-align: left;
+}
+@media (max-width: 1024px) {
+  .elementor-899
+    .elementor-element.elementor-element-d7043da
+    .mil-main-menu
+    ul
+    li {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .elementor-899 .elementor-element.elementor-element-ec964dd {
+    width: 41.667%;
+  }
+  .elementor-899 .elementor-element.elementor-element-f1a487d {
+    width: 58.333%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-899 .elementor-element.elementor-element-ec964dd {
+    width: 100%;
+  }
+}

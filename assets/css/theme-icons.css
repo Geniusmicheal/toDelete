@@ -1,0 +1,436 @@
+@font-face {
+  font-family: 'disha-font';
+  src:
+    url('fonts/disha-font.ttf?2psb1w') format('truetype'),
+    url('fonts/disha-font.woff?2psb1w') format('woff'),
+    url('fonts/disha-font.svg?2psb1w#disha-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="disha-font-"], [class*=" disha-font-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'disha-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.disha-font-repeat:before {
+  content: "\f01e";
+}
+.disha-font-rotate-right:before {
+  content: "\f01e";
+}
+.disha-font-credit-card:before {
+  content: "\f09d";
+}
+.disha-font-google-plus:before {
+  content: "\f0d6";
+}
+.disha-font-envelope:before {
+  content: "\f0e0";
+}
+.disha-font-bitcoin:before {
+  content: "\f15a";
+}
+.disha-font-btc:before {
+  content: "\f15a";
+}
+.disha-font-instagram:before {
+  content: "\f16f";
+}
+.disha-font-google:before {
+  content: "\f1a0";
+}
+.disha-font-soundcloud:before {
+  content: "\f1be";
+}
+.disha-font-wechat:before {
+  content: "\f1d7";
+}
+.disha-font-weixin:before {
+  content: "\f1d7";
+}
+.disha-font-paypal:before {
+  content: "\f1ed";
+}
+.disha-font-google-wallet:before {
+  content: "\f1ee";
+}
+.disha-font-cc-visa:before {
+  content: "\f1f0";
+}
+.disha-font-cc-mastercard:before {
+  content: "\f1f1";
+}
+.disha-font-cc-discover:before {
+  content: "\f1f2";
+}
+.disha-font-cc-amex:before {
+  content: "\f1f3";
+}
+.disha-font-cc-paypal:before {
+  content: "\f1f4";
+}
+.disha-font-cc-stripe:before {
+  content: "\f1f5";
+}
+.disha-font-pinterest-p:before {
+  content: "\f231";
+}
+.disha-font-whatsapp:before {
+  content: "\f232";
+}
+.disha-font-cc-jcb:before {
+  content: "\f24b";
+}
+.disha-font-cc-diners-club:before {
+  content: "\f24c";
+}
+.disha-font-amazon:before {
+  content: "\f270";
+}
+.disha-font-credit-card-alt:before {
+  content: "\f283";
+}
+.disha-font-snapchat:before {
+  content: "\f2ab";
+}
+.disha-font-snapchat-ghost:before {
+  content: "\f2ac";
+}
+.disha-font-snapchat-square:before {
+  content: "\f2ad";
+}
+.disha-font-google-plus-circle:before {
+  content: "\f2b3";
+}
+.disha-font-google-plus-official:before {
+  content: "\f2b3";
+}
+.disha-font-user:before {
+  content: "\f007";
+}
+.disha-font-shopping-cart:before {
+  content: "\f07a";
+}
+.disha-font-html5:before {
+  content: "\f13b";
+}
+.disha-font-css3:before {
+  content: "\f13c";
+}
+.disha-font-flickr:before {
+  content: "\f16e";
+}
+.disha-font-vk:before {
+  content: "\f189";
+}
+.disha-font-weibo:before {
+  content: "\f18a";
+}
+.disha-font-reddit:before {
+  content: "\f1a1";
+}
+.disha-font-delicious:before {
+  content: "\f1a5";
+}
+.disha-font-deviantart:before {
+  content: "\f1bd";
+}
+.disha-font-angle-thin-left:before {
+  content: "\e600";
+}
+.disha-font-angle-thin-right:before {
+  content: "\e601";
+}
+.disha-font-play:before {
+  content: "\e052";
+}
+.disha-font-speech-bubble:before {
+  content: "\e076";
+}
+.disha-font-arrow-left:before {
+  content: "\e094";
+}
+.disha-font-arrow-right:before {
+  content: "\e095";
+}
+.disha-font-arrow-up:before {
+  content: "\e096";
+}
+.disha-font-arrow-down:before {
+  content: "\e097";
+}
+.disha-font-ban:before {
+  content: "\e107";
+}
+.disha-font-maximize:before {
+  content: "\e112";
+}
+.disha-font-minimize:before {
+  content: "\e113";
+}
+.disha-font-plus:before {
+  content: "\e114";
+}
+.disha-font-minus:before {
+  content: "\e115";
+}
+.disha-font-check-alt:before {
+  content: "\e116";
+}
+.disha-font-close2:before {
+  content: "\e117";
+}
+.disha-font-inbox:before {
+  content: "\e122";
+}
+.disha-font-messenger:before {
+  content: "\e602";
+}
+.disha-font-done:before {
+  content: "\e603";
+}
+.disha-font-textsms:before {
+  content: "\e604";
+}
+.disha-font-star:before {
+  content: "\e605";
+}
+.disha-font-star-small:before {
+  content: "\e606";
+}
+.disha-font-thumb-down:before {
+  content: "\e607";
+}
+.disha-font-thumb-up:before {
+  content: "\e608";
+}
+.disha-font-plus-small:before {
+  content: "\e609";
+}
+.disha-font-arrow-back:before {
+  content: "\e60b";
+}
+.disha-font-chevron-left:before {
+  content: "\e60c";
+}
+.disha-font-chevron-right:before {
+  content: "\e60d";
+}
+.disha-font-arrow-forward:before {
+  content: "\e60e";
+}
+.disha-font-check:before {
+  content: "\e60f";
+}
+.disha-font-close:before {
+  content: "\e610";
+}
+.disha-font-chevron-up:before {
+  content: "\e611";
+}
+.disha-font-chevron-down:before {
+  content: "\e612";
+}
+.disha-font-arrow-drop-down:before {
+  content: "\e613";
+}
+.disha-font-arrow-drop-up:before {
+  content: "\e614";
+}
+.disha-font-media-play:before {
+  content: "\e615";
+}
+.disha-font-remove:before {
+  content: "\e616";
+}
+.disha-font-more-horiz:before {
+  content: "\e617";
+}
+.disha-font-more-vert:before {
+  content: "\e619";
+}
+.disha-font-get-app:before {
+  content: "\e61a";
+}
+.disha-font-vertical-align-bottom:before {
+  content: "\e61b";
+}
+.disha-font-cloud-download:before {
+  content: "\e61c";
+}
+.disha-font-visibility:before {
+  content: "\e61d";
+}
+.disha-font-lens:before {
+  content: "\e61f";
+}
+.disha-font-filter-hdr:before {
+  content: "\e620";
+}
+.disha-font-cloud:before {
+  content: "\e621";
+}
+.disha-font-cloud-done:before {
+  content: "\e622";
+}
+.disha-font-cloud-off:before {
+  content: "\e623";
+}
+.disha-font-cloud-queue:before {
+  content: "\e624";
+}
+.disha-font-cloud-upload:before {
+  content: "\e625";
+}
+.disha-font-heart:before {
+  content: "\f004";
+}
+.disha-font-check-bold:before {
+  content: "\f00c";
+}
+.disha-font-close-bold:before {
+  content: "\f00d";
+}
+.disha-font-play-filled:before {
+  content: "\f04b";
+}
+.disha-font-chevron-left-bold:before {
+  content: "\f053";
+}
+.disha-font-chevron-right-bold:before {
+  content: "\f054";
+}
+.disha-font-expand:before {
+  content: "\f065";
+}
+.disha-font-compress:before {
+  content: "\f066";
+}
+.disha-font-plus-bold:before {
+  content: "\f067";
+}
+.disha-font-minus-bold:before {
+  content: "\f068";
+}
+.disha-font-chevron-up-bold:before {
+  content: "\f077";
+}
+.disha-font-chevron-down-bold:before {
+  content: "\f078";
+}
+.disha-font-heart-o:before {
+  content: "\f08a";
+}
+.disha-font-twitter:before {
+  content: "\f099";
+}
+.disha-font-facebook:before {
+  content: "\f09a";
+}
+.disha-font-pinterest:before {
+  content: "\f0d2";
+}
+.disha-font-google-plus-old:before {
+  content: "\f0d5";
+}
+.disha-font-caret-down:before {
+  content: "\f0d7";
+}
+.disha-font-caret-up:before {
+  content: "\f0d8";
+}
+.disha-font-caret-left:before {
+  content: "\f0d9";
+}
+.disha-font-caret-right:before {
+  content: "\f0da";
+}
+.disha-font-linkedin:before {
+  content: "\f0e1";
+}
+.disha-font-angle-double-up:before {
+  content: "\f102";
+}
+.disha-font-angle-double-down:before {
+  content: "\f103";
+}
+.disha-font-angle-left:before {
+  content: "\f104";
+}
+.disha-font-angle-right:before {
+  content: "\f105";
+}
+.disha-font-angle-up:before {
+  content: "\f106";
+}
+.disha-font-angle-down:before {
+  content: "\f107";
+}
+.disha-font-circle:before {
+  content: "\f111";
+}
+.disha-font-maxcdn:before {
+  content: "\f136";
+}
+.disha-font-rss-square:before {
+  content: "\f143";
+}
+.disha-font-youtube:before {
+  content: "\f167";
+}
+.disha-font-xing:before {
+  content: "\f168";
+}
+.disha-font-instagram-old:before {
+  content: "\f16d";
+}
+.disha-font-tumblr:before {
+  content: "\f173";
+}
+.disha-font-dribbble:before {
+  content: "\f17d";
+}
+.disha-font-skype:before {
+  content: "\f17e";
+}
+.disha-font-vimeo-square:before {
+  content: "\f194";
+}
+.disha-font-digg:before {
+  content: "\f1a6";
+}
+.disha-font-behance:before {
+  content: "\f1b4";
+}
+.disha-font-eye:before {
+  content: "\e000";
+}
+.disha-font-search-alt:before {
+  content: "\e036";
+}
+.disha-font-head:before {
+  content: "\e074";
+}
+.disha-font-markunread:before {
+  content: "\e159";
+}
+.disha-font-cart:before {
+  content: "\e8cc";
+}
+.disha-font-refresh:before {
+  content: "\e5d5";
+}
+.disha-font-replay:before {
+  content: "\e042";
+}
