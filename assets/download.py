@@ -93,12 +93,37 @@ import requests
  
     # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css" "/assets/css/widget-google_maps.min.css",
     # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-14.css" "/assets/css/post-14.css"
+     # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-10.css"  "/assets/css/post-10.css"
+    #  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/js/frontend.min.js"  "/assets/js/frontend.min.js",
+#  "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"  "/assets/js/jquery.smartmenus.min.js",
+#      "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js"  "/assets/js/jquery.sticky.min.js",
+#   "https://www.heirsholdings.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js"   "/assets/js/cv.js",
+#   "https://www.heirsholdings.com/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js"   "/assets/js/cvpro.min.js",
+#   "https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/js/ivory-search.min.js"   "/assets/js/ivory-search.min.js",
+#   "https://www.heirsholdings.com/wp-content/uploads/ac_assets/ue_ajax_search/ue_ajax_search.js"   "/assets/js/ue_ajax_search.js",
+#    "https://www.heirsholdings.com/wp-content/uploads/ac_assets/uc_box_counter/jquery.waypoints.min.js"  "/assets/js/jquery.waypoints.min.js",
+#     "https://www.heirsholdings.com/wp-content/uploads/ac_assets/uc_box_counter/counterup2.min.js"  "/assets/js/counterup2.min.js",
+#   "https://www.heirsholdings.com/wp-content/themes/disha/js/plugins/modernizr.min.js"   "/assets/js/modernizr.min.js",
+#     "https://www.heirsholdings.com/wp-content/themes/disha/js/plugins/lazysizes.min.js" "/assets/js/lazysizes.min.js",
+#     "https://www.heirsholdings.com/wp-content/themes/disha/js/plugins/slick.min.js"  "/assets/js/slick.min.js",
+#     "https://www.heirsholdings.com/wp-content/themes/disha/js/plugins/jquery.magnific-popup.min.js"  "/assets/js/jquery.magnific-popup.min.js",
+#     "https://www.heirsholdings.com/wp-content/themes/disha/js/disha-core.min.js"  "/assets/js/disha-core.min.js",
+#     "https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/js/ivory-ajax-search.min.js"  "/assets/js/ivory-ajax-search.min.js",
+#     "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js"  "/assets/js/webpack-pro.runtime.min.js",
+#    "https://www.heirsholdings.com/wp-includes/js/dist/hooks.min.js"  "/assets/js/hooks.min.js",
+#     "https://www.heirsholdings.com/wp-includes/js/dist/i18n.min.js"  "/assets/js/i18n.min.js",
+    
+#    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js"   "/assets/js/elements-handlers.min.js"
+#  "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js"  "/assets/js/frontend1.min.js"
+#   "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-3459.css" "/assets/css/post-3459.css"
+# "https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js" "/assets/js/fitvids.min.js" 
+#  "https://www.heirsholdings.com/wp-includes/js/imagesloaded.min.js" "/assets/js/imagesloaded.min.js"
+ 
+urls = [
  
 
-urls = [
-    # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-10.css"  "/assets/css/post-10.css"
-    "/assets/image/health.jpeg"
-     ];
+    
+];
 
 output_dir = "assets"
 os.makedirs(output_dir, exist_ok=True)
@@ -108,9 +133,10 @@ for url in urls:
     newFilename = filename[-1]
     # print(output_dir + filename[-2])
     # filename = url.split("/")[-1].split(".")
-    # newFilename = filename[-2] + "1."+ filename[-1]
-    print(output_dir + newFilename)
-    filepath = os.path.join(output_dir + "/css", newFilename)
+    # filename[0]= filename[0] +"1"
+    # newFilename = ".".join(filename)
+    print(newFilename)
+    filepath = os.path.join(output_dir + "/js", newFilename)
 
     response = requests.get(url, timeout=15)
     response.raise_for_status()

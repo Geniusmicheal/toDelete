@@ -817,7 +817,7 @@ Author:		bslthemes
         youtube_short: {
           index: "youtu.be/",
           id: "youtu.be/",
-          src: "https://www.youtube.com/embed/%id%?autoplay=1",
+          src: "https://www.youtube.com/channel/UC2-PaU5yb31y1RJGL3COCqQembed/%id%?autoplay=1",
         },
       },
     },
