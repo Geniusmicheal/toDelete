@@ -38,12 +38,12 @@
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
 <link rel="alternate" type="application/rss+xml" title="Heirs Holdings &raquo; Feed" href="/feed/" />
-<link rel='stylesheet' id='pt-cv-public-style-css' href='https://www.heirsholdings.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.0.2' type='text/css' media='all' />
-<link rel='stylesheet' id='pt-cv-public-pro-style-css' href='https://www.heirsholdings.com/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css?ver=7.1' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css' href='https://www.heirsholdings.com/wp-includes/css/dashicons.min.css?ver=6.7.4' type='text/css' media='all' />
-<link rel='stylesheet' id='post-views-counter-frontend-css' href='https://www.heirsholdings.com/wp-content/plugins/post-views-counter/css/frontend.min.css?ver=1.5.7' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
-<link rel='stylesheet' id='tf-header-footer-style-css' href='https://www.heirsholdings.com/wp-content/plugins/tf-header-footer/assets/css/tf-style.css?ver=6.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pt-cv-public-style-css' href='/assets/css/cv.css?ver=4.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='pt-cv-public-pro-style-css' href='/assets/css/cvpro.min.css?ver=7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='/assets/css/dashicons.min.css?ver=6.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='post-views-counter-frontend-css' href='/assets/css/frontend1.min.css?ver=1.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='/assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-header-footer-style-css' href='/assets/css/tf-style.css?ver=6.7.4' type='text/css' media='all' />
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -54,47 +54,47 @@
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='cookie-notice-front-css' href='https://www.heirsholdings.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=2.5.8' type='text/css' media='all' />
-<link rel='stylesheet' id='tmle-style-css' href='https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/timelentor.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='slick-css' href='https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/slick.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='slick-theme-css' href='https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/slick-theme.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ivory-search-styles-css' href='https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css?ver=5.5.12' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css' href='/assets/css/front.min.css?ver=2.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='tmle-style-css' href='/assets/css/timelentor.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css' href='/assets/css/slick.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css' href='/assets/css/slick-theme.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ivory-search-styles-css' href='/assets/css/ivory-search.min.css?ver=5.5.12' type='text/css' media='all' />
 <link rel='stylesheet' id='feather_icons-css' href='//at.alicdn.com/t/font_o5hd5vvqpoqiwwmi.css?ver=6.7.4' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-image-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-nav-menu-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='e-sticky-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='e-motion-fx-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-search-form-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.44.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-6013-css' href='https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-6013.css?ver=1763022864' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-5-all-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-heading-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-icon-list-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-share-buttons-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='e-apple-webkit-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-call-to-action-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='e-transitions-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-spacer-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-video-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.32.5' type='text/css' media='all' />
-<link rel='stylesheet' id='widget-form-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=3.32.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-24324-css' href='https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-24324.css?ver=1767305018' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-31-css' href='https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-31.css?ver=1763022865' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-48-css' href='https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-48.css?ver=1763022865' type='text/css' media='all' />
-<link rel='stylesheet' id='normalize-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/normalize.css?ver=3.0.2' type='text/css' media='all' />
-<link rel='stylesheet' id='slick-slider-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/slick.css?ver=1.5.5' type='text/css' media='all' />
-<link rel='stylesheet' id='slick-slider-theme-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/slick-theme.css?ver=1.5.5' type='text/css' media='all' />
-<link rel='stylesheet' id='magnific-popup-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/magnific-popup.css?ver=0.9.7' type='text/css' media='all' />
-<link rel='stylesheet' id='disha-grid-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/grid.css?ver=1.9.2' type='text/css' media='all' />
-<link rel='stylesheet' id='disha-icons-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/font-icons/theme-icons/theme-icons.css?ver=1.9.2' type='text/css' media='all' />
-<link rel='stylesheet' id='disha-core-css' href='https://www.heirsholdings.com/wp-content/themes/disha/style.css?ver=1.9.2' type='text/css' media='all' />
-<link rel='stylesheet' id='disha-elements-css' href='https://www.heirsholdings.com/wp-content/themes/disha/css/elements.css?ver=1.9.2' type='text/css' media='all' />
-<link rel='stylesheet' id='__EPYT__style-css' href='https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=14.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='/assets/css/frontend.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='/assets/css/widget-image.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='/assets/css/widget-nav-menu.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='/assets/css/sticky.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='e-motion-fx-css' href='/assets/css/motion-fx.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-search-form-css' href='/assets/css/widget-search-form.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='/assets/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='/assets/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='/assets/css/elementor-icons.min.css?ver=5.44.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-6013-css' href='/assets/css/post-6013.css?ver=1763022864' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='/assets/css/all.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='/assets/css/v4-shims.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='/assets/css/widget-heading.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='/assets/css/widget-heading.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-share-buttons-css' href='/assets/css/widget-share-buttons.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='/assets/css/apple-webkit.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='/assets/css/brands.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-call-to-action-css' href='/assets/css/brands.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='e-transitions-css' href='/assets/css/brands.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='/assets/css/fadeInUp.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-spacer-css' href='/assets/css/fadeInUp.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-video-css' href='/assets/css/fadeInUp.min.css?ver=3.32.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-form-css' href='/assets/css/widget-form.min.css?ver=3.32.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-24324-css' href='/assets/css/widget-form.min.css?ver=1767305018' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-31-css' href='/assets/css/post-31.css?ver=1763022865' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-48-css' href='/assets/css/post-48.css?ver=1763022865' type='text/css' media='all' />
+<link rel='stylesheet' id='normalize-css' href='/assets/css/normalize.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-slider-css' href='/assets/css/slick1.css?ver=1.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-slider-theme-css' href='/assets/css/slick-theme1.css?ver=1.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='/assets/css/magnific-popup.css?ver=0.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='disha-grid-css' href='/assets/css/grid.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='disha-icons-css' href='/assets/css/theme-icons.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='disha-core-css' href='/assets/css/style.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='disha-elements-css' href='/assets/css/elements.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css' href='/assets/css/ytprefs.min.css?ver=14.2.3' type='text/css' media='all' />
 <style id='__EPYT__style-inline-css' type='text/css'>
 
                 .epyt-gallery-thumb {
@@ -102,16 +102,16 @@
                 }
                 
 </style>
-<link rel='stylesheet' id='chld_thm_cfg_child-css' href='https://www.heirsholdings.com/wp-content/themes/heirsholdings/style.css?ver=6.7.4' type='text/css' media='all' />
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400&#038;display=swap&#038;ver=1706289433" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400&#038;display=swap&#038;ver=1706289433" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400&#038;display=swap&#038;ver=1706289433" /></noscript><script type="text/javascript" src="https://www.heirsholdings.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www.heirsholdings.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.32.5" id="font-awesome-4-shim-js"></script>
+<link rel='stylesheet' id='chld_thm_cfg_child-css' href='/assets/css/style1.css?ver=6.7.4' type='text/css' media='all' />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400&#038;display=swap&#038;ver=1706289433" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400&#038;display=swap&#038;ver=1706289433" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:400&#038;display=swap&#038;ver=1706289433" /></noscript><script type="text/javascript" src="/assets/js/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/assets/js/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/assets/js/v4-shims.min.js?ver=3.32.5" id="font-awesome-4-shim-js"></script>
 <script type="text/javascript" id="__ytprefs__-js-extra">
 /* <![CDATA[ */
 var _EPYT_ = {"ajaxurl":"https:\/\/www.heirsholdings.com\/wp-admin\/admin-ajax.php","security":"98dc2c6c54","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/www.heirsholdings.com\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/www.heirsholdings.com\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"14.2.3","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","maxres_facade":"eager","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","facade_mode":"","not_live_on_channel":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=14.2.3" id="__ytprefs__-js"></script>
+<script type="text/javascript" src="assets/js/ytprefs.min.js?ver=14.2.3" id="__ytprefs__-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/24324" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.7.4" />
 <link rel='shortlink' href='https://www.heirsholdings.com/' />
@@ -390,7 +390,7 @@ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(argumen
     padding: 4px 20px 3px 13px;
     border: none; 
     border-radius: 2px;
-    background-image: url(https://www.heirsholdings.com/wp-content/plugins/translatepress-multilingual/assets/css/.././assets/images/arrow-down-3101.svg);
+    background-image: url(/assets/image/arrow-down-3101.svg);
     background-repeat: no-repeat;
     background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 3px) calc(1em + 0px);
     background-size: 8px 8px, 8px 8px;
@@ -1049,7 +1049,7 @@ font-weight: 700;
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23794"><a href="/investments/" class="elementor-sub-item">Overview</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23795"><a href="/investments#financial" class="elementor-sub-item elementor-item-anchor">Financial Services</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23796"><a href="/investments#agriculture" class="elementor-sub-item elementor-item-anchor">Power</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor">Energies</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor">Renewable & Sustainable Energy</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23798"><a href="/investments#infrastructure" class="elementor-sub-item elementor-item-anchor">Infrastructure</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23799"><a href="/investments#healthcare" class="elementor-sub-item elementor-item-anchor">Healthcare</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23800"><a href="/investments#technology" class="elementor-sub-item elementor-item-anchor">Technology</a></li>
@@ -1089,7 +1089,7 @@ font-weight: 700;
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23794"><a href="/investments/" class="elementor-sub-item" tabindex="-1">Overview</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23795"><a href="/investments#financial" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Financial Services</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23796"><a href="/investments#agriculture" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Power</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Energies</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Renewable & Sustainable Energy</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23798"><a href="/investments#infrastructure" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Infrastructure</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23799"><a href="/investments#healthcare" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Healthcare</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23800"><a href="/investments#technology" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Technology</a></li>
@@ -1177,7 +1177,7 @@ font-weight: 700;
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23794"><a href="/investments/" class="elementor-sub-item">Overview</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23795"><a href="/investments#financial" class="elementor-sub-item elementor-item-anchor">Financial Services</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23796"><a href="/investments#agriculture" class="elementor-sub-item elementor-item-anchor">Power</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor">Energies</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor">Renewable & Sustainable Energy</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23798"><a href="/investments#infrastructure" class="elementor-sub-item elementor-item-anchor">Infrastructure</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23799"><a href="/investments#healthcare" class="elementor-sub-item elementor-item-anchor">Healthcare</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23800"><a href="/investments#technology" class="elementor-sub-item elementor-item-anchor">Technology</a></li>
@@ -1217,7 +1217,7 @@ font-weight: 700;
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23794"><a href="/investments/" class="elementor-sub-item" tabindex="-1">Overview</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23795"><a href="/investments#financial" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Financial Services</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23796"><a href="/investments#agriculture" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Power</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Energies</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23797"><a href="/investments#energy" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Renewable & Sustainable Energy</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23798"><a href="/investments#infrastructure" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Infrastructure</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23799"><a href="/investments#healthcare" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Healthcare</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23800"><a href="/investments#technology" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Technology</a></li>

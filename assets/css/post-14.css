@@ -40,6 +40,6 @@
 	font-style: normal;
 	font-weight: bold;
 	font-display: auto;
-	src: url('https://www.heirsholdings.com/wp-content/uploads/2019/02/century-gothic-bold.ttf') format('truetype');
+	src: url('/assets/webfonts/century-gothic-bold.ttf') format('truetype');
 }
 /* End Custom Fonts CSS */

@@ -2,54 +2,54 @@ import os
 import requests
 
 # https://www.heirsholdings.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css    /assets/css/cv.css
-# https://www.heirsholdings.com/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css /assets/css/cvpro.min.css
-# "/assets/css/dashicons.min.css", /assets/css/dashicons.min.css
+# https://www.heirsholdings.com/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css  /assets/css/cvpro.min.css
+# "https://www.heirsholdings.com/wp-includes/css/dashicons.min.css", /assets/css/dashicons.min.css
 #    "https://www.heirsholdings.com/wp-content/plugins/post-views-counter/css/frontend.min.css", /assets/css/frontend1.min.css
 #    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css", /assets/css/font-awesome.min.css
 #    "https://www.heirsholdings.com/wp-content/plugins/tf-header-footer/assets/css/tf-style.css", /assets/css/tf-style.css
-#     "https://www.heirsholdings.com/wp-content/plugins/cookie-notice/css/front.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/timelentor.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/slick.css",
+#     "https://www.heirsholdings.com/wp-content/plugins/cookie-notice/css/front.min.css" "/assets/css/front.min.css",
+#    "/assets/css/timelentor.css", "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/timelentor.css"
+#    "/assets/css/slick.css",  "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/slick.css"
     
-#    "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/slick-theme.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/frontend.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-image.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css",
+#    "/assets/css/slick-theme.css", "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/css/slick-theme.css"
+#    "/assets/css/ivory-search.min.css", "https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/css/ivory-search.min.css"
+#    "/assets/css/frontend.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/frontend.min.css"
+#    "/assets/css/widget-image.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-image.min.css"
+#    "/assets/css/widget-nav-menu.min.css", "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css"
 
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
-#    "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-6013.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+#    "/assets/css/sticky.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css"
+#    "/assets/css/motion-fx.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css"
+#    "/assets/css/widget-search-form.min.css", "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css"
+#    "/assets/css/fontawesome.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css"
+#    "/assets/css/solid.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css"
+#    "/assets/css/elementor-icons.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css"
+#    "/assets/css/post-6013.css", "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-6013.css"
+#    "/assets/css/all.min.css", "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css"
+#    "/assets/css/v4-shims.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css"
+#    "/assets/css/widget-heading.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css"
 #    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css",
+#    "/assets/css/widget-share-buttons.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css"
+#    "/assets/css/apple-webkit.min.css", "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css"
+#    "/assets/css/brands.min.css", "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css"
 #    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css",
 #    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css",
-#    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css",
+#    "/assets/css/fadeInUp.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css"
 #     "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css",
 #     "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-video.min.css",
-#     "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css",
+#     "/assets/css/widget-form.min.css",  "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css"
 #     "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-24324.css",
-#     "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-31.css",
-#     "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-48.css",
-#     "https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/normalize.css",
-#     "https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/magnific-popup.css",
-#     "https://www.heirsholdings.com/wp-content/themes/disha/css/grid.css",
-#     "https://www.heirsholdings.com/wp-content/themes/disha/css/font-icons/theme-icons/theme-icons.css",
-#     "https://www.heirsholdings.com/wp-content/themes/disha/style.css",
-#     "https://www.heirsholdings.com/wp-content/themes/disha/css/elements.css",
+#     "/assets/css/post-31.css", "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-31.css"
+#     "/assets/css/post-48.css", "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-48.css"
+#     "/assets/css/normalize.css",  "https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/normalize.css"
+#     "/assets/css/magnific-popup.css",  "https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/magnific-popup.css"
+#     "/assets/css/grid.css",  "https://www.heirsholdings.com/wp-content/themes/disha/css/grid.css"
+#     "/assets/css/theme-icons.css", "https://www.heirsholdings.com/wp-content/themes/disha/css/font-icons/theme-icons/theme-icons.css"
+#     "/assets/css/style.css",  "https://www.heirsholdings.com/wp-content/themes/disha/style.css"
+#     "/assets/css/elements.css",  "https://www.heirsholdings.com/wp-content/themes/disha/css/elements.css"
 #    "https://at.alicdn.com/t/font_o5hd5vvqpoqiwwmi.css"
 #    "https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/slick.css",  "/assets/css/slick1.css"
 #     "https://www.heirsholdings.com/wp-content/themes/disha/css/third-party/slick-theme.css", "/assets/css/slick-theme1.css"
-    # "https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css"
+    # "/assets/css/ytprefs.min.css" "https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css"
 
 # "https://www.heirsholdings.com/wp-content/themes/heirsholdings/style.css" "/assets/css/style1.css"
 
@@ -60,10 +60,8 @@ import requests
 # "https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js"  "/assets/js/ytprefs.min.js"
  # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf",
     # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff",
-    # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf",
     # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg",
     # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot",
-    # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff",
     # "https://www.heirsholdings.com/wp-content/uploads/2019/02/century-gothic-bold.ttf" "/assets/webfonts/century-gothic-bold.ttf",
     # "https://www.heirsholdings.com/wp-content/uploads/2019/06/search-alt.svg" "/assets/image/search-alt.svg"
 #    "https://www.heirsholdings.com/wp-content/plugins/translatepress-multilingual/assets/css/.././assets/images/arrow-down-3101.svg" "/assets/image/arrow-down-3101.svg",
@@ -87,6 +85,8 @@ import requests
 #     "https://www.heirsholdings.com/wp-content/plugins/cookie-notice/js/front.min.js" "/assets/js/front.min.js",
 #     "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/js/tmle-custom.js" "/assets/js/tmle-custom.js",
 #     "https://www.heirsholdings.com/wp-content/plugins/timelentor/assets/js/slick.js" "/assets/js/slick.js",
+
+
 #     "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" "/assets/js/webpack.runtime.min.js",
 #     "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" "/assets/js/frontend-modules.min.js",
 #     "https://www.heirsholdings.com/wp-includes/js/jquery/ui/core.min.js" "/assets/js/core.min.js"
@@ -118,11 +118,14 @@ import requests
 #   "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-3459.css" "/assets/css/post-3459.css"
 # "https://www.heirsholdings.com/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js" "/assets/js/fitvids.min.js" 
 #  "https://www.heirsholdings.com/wp-includes/js/imagesloaded.min.js" "/assets/js/imagesloaded.min.js"
- 
-urls = [
- 
+# "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-11.css"  "/assets/css/post-11.css" 
+#  "/assets/css/post-4419.css"
 
-    
+# "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" "/assets/js/share-link.min.js",
+# "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-4421.css"  /assets/css/post-4421.css
+
+urls = [
+
 ];
 
 output_dir = "assets"
@@ -151,4 +154,5 @@ print("All files downloaded ✅")
 
 #011944 main color
 
+# /assets/image/QTLobby.png
 # /assets/image/QTLobby.png
