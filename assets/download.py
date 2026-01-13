@@ -125,7 +125,8 @@ import requests
 # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-4421.css"  /assets/css/post-4421.css
 
 urls = [
-
+"https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-toggle.min.css" "/assets/css/widget-toggle.min.css",
+"https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-16318.css" "/assets/css/post-16318.css"
 ];
 
 output_dir = "assets"
@@ -139,7 +140,7 @@ for url in urls:
     # filename[0]= filename[0] +"1"
     # newFilename = ".".join(filename)
     print(newFilename)
-    filepath = os.path.join(output_dir + "/js", newFilename)
+    filepath = os.path.join(output_dir + "/css", newFilename)
 
     response = requests.get(url, timeout=15)
     response.raise_for_status()
@@ -156,3 +157,4 @@ print("All files downloaded ✅")
 
 # /assets/image/QTLobby.png
 # /assets/image/QTLobby.png
+# /assets/image/QBoardtoom.png
