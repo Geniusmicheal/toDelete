@@ -124,9 +124,18 @@ import requests
 # "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" "/assets/js/share-link.min.js",
 # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-4421.css"  /assets/css/post-4421.css
 
+# "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-toggle.min.css" "/assets/css/widget-toggle.min.css",
+# "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-16318.css" "/assets/css/post-16318.css"
+
 urls = [
-"https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-toggle.min.css" "/assets/css/widget-toggle.min.css",
-"https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-16318.css" "/assets/css/post-16318.css"
+    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css"  "/assets/css/widget-text-editor.min.css",
+    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css"   "/assets/css/popup.min.css",
+    "https://www.heirsholdings.com/wp-content/plugins/elementor-pro/assets/css/widget-search.min.css"  "/assets/css/widget-search.min.css",
+    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-tabs.min.css"  "/assets/css/widget-tabs.min.css",
+    "https://www.heirsholdings.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css"   "/assets/css/fadeIn.min.css",
+    "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-13.css"  "/assets/css/post-13.css",
+    "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-10390.css"  "/assets/css/post-10390.css",
+    "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-25904.css"  "/assets/css/post-25904.css"
 ];
 
 output_dir = "assets"
