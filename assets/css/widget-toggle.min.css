@@ -217,7 +217,7 @@ align-items: center;
 }
 
 .is-sticky .header-logo img  {
-	content: url("/wp-content/uploads/2025/02/logo-15-hh-long.png")
+	content: url("/assets/image/logo.jpg")
 }
 
 .is-sticky .search-icon img  {
@@ -2347,7 +2347,7 @@ Stay in touch to get exclusive news and insights from across our investment port
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-1a598e elementor-widget elementor-widget-image" data-id="1a598e" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img src="https://www.heirsholdings.com/wp-content/uploads/2025/02/logo-15-hh-long.png" title="logo 15 hh long" alt="logo 15 hh long" loading="lazy" />															</div>
+															<img src="https://www.heirsholdings.com/assets/image/logo.jpg" title="logo 15 hh long" alt="logo 15 hh long" loading="lazy" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-65c85884 elementor-widget elementor-widget-heading" data-id="65c85884" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -2596,7 +2596,7 @@ transforming Africa.</p>				</div>
 					document.addEventListener( event, lazyloadRunObserver );
 				} );
 			</script>
-			<div id="is-popup-wrapper" style="display:none"><div class="popup-search-close"></div><div class="is-popup-search-form"><form data-min-no-for-search=1 data-result-box-max-height=400 data-form-id=21815 class="is-search-form is-form-style is-form-style-3 is-form-id-21815 is-ajax-search" action="https://www.heirsholdings.com/" method="get" role="search" ><label for="is-search-input-21815"><span class="is-screen-reader-text">Search for:</span><input  type="search" id="is-search-input-21815" name="s" value="" class="is-search-input" placeholder="" autocomplete=off /><span class="is-loader-image" style="display: none;background-image:url(https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/images/spinner.gif);" ></span></label><button type="submit" class="is-search-submit"><span class="is-screen-reader-text">Search Button</span><span class="is-search-icon"><svg focusable="false" aria-label="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span></button><input type="hidden" name="id" value="21815" /></form></div></div><link rel='stylesheet' id='elementor-post-25189-css' href='https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-25189.css?ver=1767305403' type='text/css' media='all' />
+			<div id="is-popup-wrapper" style="display:none"><div class="popup-search-close"></div><div class="is-popup-search-form"><form data-min-no-for-search=1 data-result-box-max-height=400 data-form-id=21815 class="is-search-form is-form-style is-form-style-3 is-form-id-21815 is-ajax-search" action="https://www.heirsholdings.com/" method="get" role="search" ><label for="is-search-input-21815"><span class="is-screen-reader-text">Search for:</span><input  type="search" id="is-search-input-21815" name="s" value="" class="is-search-input" placeholder="" autocomplete=off /><span class="is-loader-image" style="display: none;background-image:url(/assets/image/spinner.gif);" ></span></label><button type="submit" class="is-search-submit"><span class="is-screen-reader-text">Search Button</span><span class="is-search-icon"><svg focusable="false" aria-label="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span></button><input type="hidden" name="id" value="21815" /></form></div></div><link rel='stylesheet' id='elementor-post-25189-css' href='https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-25189.css?ver=1767305403' type='text/css' media='all' />
 <link rel='stylesheet' id='widget-divider-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.32.5' type='text/css' media='all' />
 <link rel='stylesheet' id='widget-social-icons-css' href='https://www.heirsholdings.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.32.5' type='text/css' media='all' />
 <link rel='stylesheet' id='ivory-ajax-search-styles-css' href='https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/css/ivory-ajax-search.min.css?ver=5.5.12' type='text/css' media='all' />

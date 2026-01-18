@@ -135,9 +135,17 @@ import requests
 # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-13.css"  "/assets/css/post-13.css",
 # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-10390.css"  "/assets/css/post-10390.css",
 # "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-25904.css"  "/assets/css/post-25904.css"
+#   "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-4850.css" "/assets/css/post-4850.css"
+# "https://www.heirsholdings.com/wp-content/plugins/add-search-to-menu/public/images/spinner.gif" "/assets/image/spinner.gif",
+
+
+
 
 urls = [
-  "https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-4850.css"     "/assets/css/post-4850.css"
+"https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-3492.css"  "/assets/css/post-3492.css",
+"https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-3478.css"  "/assets/css/post-3478.css",
+"https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-5571.css" "/assets/css/post-5571.css",
+"https://www.heirsholdings.com/wp-content/uploads/elementor/css/post-16647.css"   "/assets/css/post-16647.css"
 ];
 
 output_dir = "assets"
